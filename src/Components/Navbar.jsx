@@ -24,7 +24,7 @@ export default function Navbar() {
     ]
   return (
     <>
-    <div className="z-50 bg-white max-w-screen-2xl pt-3 shadow-md h-16  backdrop-blur-lg max-w-screen container mx-auto px-4 md:px-20 fixed top-0 left-0 right-0">
+    <div className="z-50 bg-white max-w-screen-2xl pt-3 shadow-md h-16 max-w-screen container mx-auto px-4 md:px-20 fixed top-0 left-0 right-0">
         <div className='flex justify-between items-center'>
             <div className='flex space-x-2'>
                 <img className="h-12 w-12 rounded-full" src={profile} alt="NoImage"></img>
