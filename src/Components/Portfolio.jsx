@@ -6,6 +6,7 @@ import reactjs from '../../public/reactjs.png'
 import tailwind from '../../public/tailwind.png'
 import javascript from '../../public/javascript.png'
 import python from '../../public/python.webp'
+import mongodb from '../../public/mongodb.jpg'
 
 export default function Portfolio() {
     const icons = [
@@ -50,6 +51,12 @@ export default function Portfolio() {
             logo: python,
             name: "python",
             desc: "Proficient in Python with a strong foundation in data analysis, machine learning."
+        }, 
+        {
+            id: 8,
+            logo: mongodb,
+            name: "mongodb",
+            desc: "Expertise in NoSQL database management and data modeling."
         }
     ]
   return (
