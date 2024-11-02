@@ -4,7 +4,7 @@ import pic from "../../public/photo.avif";
 import { ImCross } from "react-icons/im";
 import profile from '../../public/profile.jpg'
 import {Link} from 'react-scroll'
-
+import newphoto from '../../public/newphoto.jpg'
 export default function Navbar() {
     const[menu, setMenu] = useState(false);
     const nav = [
@@ -27,7 +27,7 @@ export default function Navbar() {
     <div className="z-50 bg-white max-w-screen-2xl pt-3 shadow-md h-16 max-w-screen container mx-auto px-4 md:px-20 fixed top-0 left-0 right-0">
         <div className='flex justify-between items-center'>
             <div className='flex space-x-2'>
-                <img className="h-12 w-12 rounded-full" src={profile} alt="NoImage"></img>
+                <img className="h-12 w-12 rounded-full" src={newphoto} alt="NoImage"></img>
                 <h1 className='text-xl cursor-pointer font-semibold'>Rutu
                     <span className='text-green-600 '>raj
                     </span>

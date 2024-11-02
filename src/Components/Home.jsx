@@ -10,6 +10,7 @@ import { TbBrandJavascript } from "react-icons/tb";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { DiNodejs } from "react-icons/di";
 import { ReactTyped } from 'react-typed';
+import newphoto from '../../public/newphoto.jpg'
 export default function Home() {
   return (
     <>
@@ -62,7 +63,7 @@ export default function Home() {
                 </div>
             </div>
             <div className='md:w-1/2 md:ml-4 md:mt-20 order-1 mt-8'>
-                <img className="rounded-full md:w-[450px] md:h-[450px]" src={profile} alt=''></img>
+                <img className="rounded-full md:w-[450px] md:h-[450px]" src={newphoto} alt=''></img>
             </div>
         </div>
     </div>
